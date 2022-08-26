@@ -33,6 +33,16 @@ class ViewController: UIViewController {
         present(alert, animated: true)
     }
 
+    @IBAction func onTestButton(_ sender: Any) {
+        let alert = UIAlertController(title: NSLocalizedString("TEST_TITLE", comment: "test"),
+                                      message: "Hey", preferredStyle: .alert)
+        alert.addAction(UIAlertAction(title: "Test", style: .default, handler: { _ in
+            print("dismissed.")
+        }))
+        
+        present(alert, animated: true)
+    }
+
     
     /// AR表示画面を開く
     /// - Parameter sender: ARスタートボタン
