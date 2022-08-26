@@ -17,6 +17,7 @@
 		F4B4CB5828AF039B00C4A689 /* MyTestProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B4CB5728AF039B00C4A689 /* MyTestProjectUITests.swift */; };
 		F4B4CB5A28AF039B00C4A689 /* MyTestProjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B4CB5928AF039B00C4A689 /* MyTestProjectUITestsLaunchTests.swift */; };
 		F4B4CB6728AF058800C4A689 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = F4B4CB6628AF058800C4A689 /* README.md */; };
+		F4F03A5A28B85CE300919365 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = F4F03A5828B85CE300919365 /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		F4B4CB5728AF039B00C4A689 /* MyTestProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTestProjectUITests.swift; sourceTree = "<group>"; };
 		F4B4CB5928AF039B00C4A689 /* MyTestProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTestProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		F4B4CB6628AF058800C4A689 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		F4F03A5928B85CE300919365 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F4F03A5B28B85EF500919365 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +112,7 @@
 				F4B4CB3F28AF039B00C4A689 /* Assets.xcassets */,
 				F4B4CB4128AF039B00C4A689 /* LaunchScreen.storyboard */,
 				F4B4CB4428AF039B00C4A689 /* Info.plist */,
+				F4F03A5828B85CE300919365 /* Localizable.strings */,
 			);
 			path = MyTestProject;
 			sourceTree = "<group>";
@@ -216,6 +220,7 @@
 			knownRegions = (
 				en,
 				Base,
+				ja,
 			);
 			mainGroup = F4B4CB2A28AF039900C4A689;
 			productRefGroup = F4B4CB3428AF039900C4A689 /* Products */;
@@ -234,6 +239,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4F03A5A28B85CE300919365 /* Localizable.strings in Resources */,
 				F4B4CB4328AF039B00C4A689 /* LaunchScreen.storyboard in Resources */,
 				F4B4CB4028AF039B00C4A689 /* Assets.xcassets in Resources */,
 				F4B4CB6728AF058800C4A689 /* README.md in Resources */,
@@ -317,6 +323,15 @@
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
+		F4F03A5828B85CE300919365 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4F03A5928B85CE300919365 /* Base */,
+				F4F03A5B28B85EF500919365 /* ja */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
@@ -324,6 +339,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -384,6 +400,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -441,6 +458,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CU4HBZQH62;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MyTestProject/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -468,6 +486,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CU4HBZQH62;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MyTestProject/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
