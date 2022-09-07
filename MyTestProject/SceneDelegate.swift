@@ -2,7 +2,6 @@
 //  SceneDelegate.swift
 //  MyTestProject
 //
-//  Created by Masaki Kameya on 2022/08/19.
 //
 
 import UIKit
